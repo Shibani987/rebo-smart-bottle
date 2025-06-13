@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rebo – Smart Water Bottle</title>
+  <link rel="stylesheet" href="style.css" />
+ 
+
+   
+  
+</head>
+
+<body>
+
+  <!-- ✅ Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="images/rebo.jpg" alt="Rebo Logo" />
+    </div>
+    <nav class="menu">
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#"><img id="shopIcon" src="https://img.icons8.com/ios-filled/20/ffffff/shopping-bag.png" style="vertical-align: middle; margin-right: 5px;" />Shop</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search..." />
+      <button><img  id="searchIcon" src="https://img.icons8.com/ios-filled/20/ffffff/search--v1.png" alt="Search" /></button>
+    </div>
+  </header>
+
+  <!-- ✅ Background Circles -->
+  <div class="background-circles">
+    <div class="circle small" style="top: 10%; left: 5%;"></div>
+    <div class="circle small" style="top: 20%; left: 80%;"></div>
+    <div class="circle medium" style="top: 30%; left: 60%;"></div>
+    <div class="circle medium" style="top: 75%; left: 25%;"></div>
+    <div class="circle large" style="top: 40%; left: 10%;"></div>
+    <div class="circle large" style="top: 65%; left: 75%;"></div>
+    <div class="circle xlarge" style="top: 50%; left: 40%;"></div>
+    <div class="circle xlarge" style="top: 85%; left: 10%;"></div>
+  </div>
+
+  <!-- ✅ Hero Section -->
+  <section class="hero">
+    <div class="content animate-slide-in">
+      <h1>Drink Smarter.<br>Live Greener.</h1>
+      <p>Rebo – The smart bottle that keeps you hydrated and saves the planet.</p>
+      <p class="price">Only ₹1,999 – Stay smart & sustainable!</p>
+      <div class="buttons">
+        <a href="#" class="btn primary">Shop Now</a>
+        <a href="#" class="btn secondary">Learn More</a>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <img id="iconBrain" src="https://img.icons8.com/ios/50/brain.png" alt="Smart Cap" />
+          <p><strong>Smart Cap</strong><br>Tracks every sip you take</p>
+        </div>
+        <div class="feature">
+          <img id="iconPhone" src="https://img.icons8.com/ios/50/smartphone.png" alt="Rebo App" />
+          <p><strong>Rebo App</strong><br>Personalized hydration goals + reminders</p>
+        </div>
+        <div class="feature">
+          <img  id="iconGlobe" src="https://img.icons8.com/ios/50/globe--v1.png" alt="Plastic Impact" />
+          <p><strong>Plastic Impact</strong><br>Funds ocean cleanup with every refill</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-section">
+      <div class="product-image">
+        <img id="reboBottle" src="images/green.png" alt="Rebo Bottle" />
+      </div>
+      <div class="color-palette-vertical">
+        <button class="color-btn" style="background-color: rgb(235, 126, 9);" onclick="changeBottle('orange')"></button>
+        <button class="color-btn" style="background-color: lightgreen;" onclick="changeBottle('lightgreen')"></button>
+        <button class="color-btn" style="background-color: white; border: 1px solid #ccc;" onclick="changeBottle('white')"></button>
+        <button class="color-btn" style="background-color: rgb(11, 53, 11);" onclick="changeBottle('deepgreen')"></button>
+        <button class="color-btn" style="background-color: rgb(34, 77, 205);" onclick="changeBottle('blue')"></button>
+      </div>
+    </div>
+  </section>
+
+  <a href="#next-section" class="scroll-down">↓</a>
+
+  <section id="next-section" class="about-section">
+  <div class="about-intro">
+    <h2>Why Choose REBO?</h2>
+    <p>REBO isn't just a water bottle – it's a smart hydration companion. With every sip, you're helping reduce plastic waste and support ocean cleanup efforts.</p>
+  </div>
+
+ <div class="feature-cards">
+    <div class="feature-card">
+      <img src="https://img.icons8.com/ios-filled/50/smartphone.png" alt="Phone Sync">
+      <h3>Phone Sync</h3>
+      <p>Sync the bottle with your smartphone through the REBO App</p>
+    </div>
+    <div class="feature-card">
+      <img src="https://img.icons8.com/ios-filled/50/brain.png" alt="Personalized Hydration">
+      <h3>Smart Goals</h3>
+      <p>REBO sets your hydration based on your body and activity</p>
+    </div>
+    <div class="feature-card">
+      <img src="https://img.icons8.com/ios-filled/50/alarm.png" alt="Hydration Reminder">
+      <h3>Hydration Reminders</h3>
+      <p>The REBO App will monitor your water intake and send reminders</p>
+    </div>
+    <div class="feature-card">
+      <img src="https://img.icons8.com/ios-filled/50/globe--v1.png" alt="Ocean Cleanup">
+      <h3>Ocean Impact</h3>
+      <p>For every REBO drunk, we pick up a plastic bottle from the ocean</p>
+    </div>
+  </div>
+</section>
+
+<section class="catalogue-section">
+  <h2 class="catalogue-title">Meet our Catalogue</h2>
+
+  <div class="catalogue-cards">
+
+    <!-- REBO SMART Card -->
+    <div class="catalogue-card smart">
+      <div class="card-content">
+        <h3>REBO SMART</h3>
+          <img src="images/rebo smart.png" alt="REBO SMART Bottle" class="catalogue-image" />
+        <p><strong>Innovative, patented & smart</strong></p>
+        <p>Our connected solution to help you achieve your daily hydration goal and make a positive impact on the planet.</p>
+        <p>Featuring our Smart Cap, REBO SMART will track your water intake and positive impact to make sure you and our planet stay healthy. The bottle will do everything for you.</p>
+        <a href= "#" class="btn primary">Check REBO SMART</a>
+      </div>
+    </div>
+
+    <!-- REBO GO Card -->
+    <div class="catalogue-card go">
+      <div class="card-content">
+        <h3>REBO GO</h3>
+        <img src="images/rebo go.png" alt="REBO GO Bottle" class="catalogue-image" />
+        <p><strong>NFC powered, durable & accessible</strong></p>
+        <p>Our newest addition to the REBO family. All the features of a high-end reusable bottle, powered by built-in NFC technology that works with the REBO APP.</p>
+        <p>Thanks to the Tap & GO system, you can track your hydration and fight plastic pollution.</p>
+        <a href="#" class="btn primary">Check REBO GO</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <section class="contact-section">
+    <div class="contact-card">
+      <h2>Contact REBO</h2>
+      <p>Have questions, suggestions or just want to say hi? Reach out to us!</p>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="social-icons">
+        <a href="#"><img src="https://img.icons8.com/ios-filled/30/ffffff/facebook--v1.png" alt="Facebook" /></a>
+        <a href="#"><img src="https://img.icons8.com/ios-filled/30/ffffff/instagram-new.png" alt="Instagram" /></a>
+        <a href="#"><img src="https://img.icons8.com/ios-filled/30/ffffff/twitter.png" alt="Twitter" /></a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <footer class="footer">
+  <div class="footer-content">
+    <div class="footer-logo">
+      <h3>REBO</h3>
+      <p>Smart hydration. Sustainable future.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#">Home</a>
+      <a href="#">Catalogue</a>
+      <a href="#">Features</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="footer-socials">
+      <a href="#"><img src="https://img.icons8.com/ios-filled/30/ffffff/facebook--v1.png" alt="Facebook" /></a>
+      <a href="#"><img src="https://img.icons8.com/ios-filled/30/ffffff/instagram-new.png" alt="Instagram" /></a>
+      <a href="#"><img src="https://img.icons8.com/ios-filled/30/ffffff/twitter.png" alt="Twitter" /></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 REBO. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
